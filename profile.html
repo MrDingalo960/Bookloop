@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Dashboard | BookLoop</title>
+</head>
+<body class="bg-gray-50">
+    <nav class="p-4 bg-white shadow-sm flex justify-between items-center mb-10">
+        <a href="index.html" class="text-2xl font-bold text-blue-600">BookLoop</a>
+        <div class="flex items-center gap-3">
+            <div class="text-right hidden md:block leading-tight">
+                <p class="font-bold text-sm">Student #2741</p>
+                <p class="text-xs text-green-500">Verified Member</p>
+            </div>
+            <div class="w-10 h-10 bg-blue-600 rounded-full border-2 border-white shadow-md"></div>
+        </div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                <p class="text-gray-400 text-xs font-black uppercase tracking-widest">Earnings</p>
+                <h2 class="text-4xl font-black text-gray-900">P1,450</h2>
+            </div>
+            <div class="bg-gradient-to-br from-blue-600 to-blue-700 p-8 rounded-3xl shadow-xl text-white">
+                <p class="opacity-80 text-xs font-black uppercase tracking-widest">Active Books</p>
+                <h2 class="text-4xl font-black">3</h2>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                <p class="text-gray-400 text-xs font-black uppercase tracking-widest">Rating</p>
+                <h2 class="text-4xl font-black text-yellow-500">4.9/5</h2>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-sm border border-gray-100 p-8">
+            <h3 class="text-2xl font-bold mb-6">Manage My Books</h3>
+            <div class="flex items-center justify-between p-6 bg-gray-50 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-4">
+                    <img src="https://placehold.co/100x150?text=SQL" class="w-12 h-16 rounded shadow">
+                    <div>
+                        <h4 class="font-bold">Advanced Oracle SQL</h4>
+                        <p class="text-xs text-blue-600 font-bold uppercase">BIDA 311</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=60x60&data=TRANS_ID_123" class="mx-auto mb-1">
+                    <p class="text-[10px] font-black text-gray-400">SWAP CODE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
